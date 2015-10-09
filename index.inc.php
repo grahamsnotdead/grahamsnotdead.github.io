@@ -109,7 +109,7 @@ $_response_body     = '';
 
 function show_report($data)
 {    
-    include $data['which'] . '.inc.php';
+    include $data['which'] . '.html';
     exit(0);
 }
 
