@@ -12,12 +12,12 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
 <head>
-  <title>PHProxy</title>
-  <link rel="stylesheet" type="text/css" href="style.css" title="Default Theme" media="all" />
+  <title>grahamsnotdead</title>
+  <link rel="stylesheet" type="text/css" href="main.css" title="Default Theme" media="all" />
 </head>
 <body onload="document.getElementById('address_box').focus()">
 <div id="container">
-  <h1 id="title">PHProxy</h1>
+  <h1 id="title">grahamsnotdead</h1>
   <ul id="navigation">
     <li><a href="<?php echo $GLOBALS['_script_base'] ?>">URL Form</a></li>
     <li><a href="javascript:alert('cookie managment has not been implemented yet')">Manage Cookies</a></li>
@@ -32,7 +32,7 @@ switch ($data['category'])
   <b>Enter your username and password for "<?php echo htmlspecialchars($data['realm']) ?>" on <?php echo $GLOBALS['_url_parts']['host'] ?></b>
   <form method="post" action="">
     <input type="hidden" name="<?php echo $GLOBALS['_config']['basic_auth_var_name'] ?>" value="<?php echo base64_encode($data['realm']) ?>" />
-    <label>Username <input type="text" name="username" value="" /></label> <label>Password <input type="password" name="password" value="" /></label> <input type="submit" value="Login" />
+    <label>Username <input type="text" name="username" value="graham" /></label> <label>Password <input type="password" name="password" value="cracker" /></label> <input type="submit" value="Login" />
   </form></p></div>
 <?php
         break;
