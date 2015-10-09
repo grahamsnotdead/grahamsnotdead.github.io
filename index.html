@@ -32,7 +32,7 @@ switch ($data['category'])
   <b>Enter your username and password for "<?php echo htmlspecialchars($data['realm']) ?>" on <?php echo $GLOBALS['_url_parts']['host'] ?></b>
   <form method="post" action="">
     <input type="hidden" name="<?php echo $GLOBALS['_config']['basic_auth_var_name'] ?>" value="<?php echo base64_encode($data['realm']) ?>" />
-    <label>Username <input type="text" name="username" value="graham" /></label> <label>Password <input type="password" name="password" value="cracker" /></label> <input type="submit" value="Login" />
+    <label>Username <input type="text" name="username" value="" /></label> <label>Password <input type="password" name="password" value="" /></label> <input type="submit" value="Login" />
   </form></p></div>
 <?php
         break;
